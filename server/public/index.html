@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello!</title>
+    </head>
+
+    <body>
+        <h1>Hello World!</h1>
+        <p>This is a simple paragraph.</p>
+
+        <!--
+             при обращении на сервер по url "/success" сервер сгенерирует
+             на основании шаблона новую html страницу
+        -->
+        <form action="/success">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </body>
+
+</html>
